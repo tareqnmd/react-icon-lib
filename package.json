@@ -1,0 +1,49 @@
+{
+	"name": "@tareqnmd/reacticonlib",
+	"version": "1.0.1",
+	"description": "React Icon Library",
+	"main": "index.js",
+	"files": [
+		"dist",
+		"index.js"
+	],
+	"scripts": {
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build",
+		"build": "vite build",
+		"patch-publish": "vite build && npm version patch && npm publish --access public",
+		"minor-publish": "vite build && npm version minor && npm publish --access public",
+		"major-publish": "vite build && npm version major && npm publish --access public"
+	},
+	"author": "Mohammad Tareq",
+	"license": "MIT",
+	"devDependencies": {
+		"@storybook/addon-essentials": "^7.2.3",
+		"@storybook/addon-interactions": "^7.2.3",
+		"@storybook/addon-links": "^7.2.3",
+		"@storybook/addon-onboarding": "^1.0.8",
+		"@storybook/blocks": "^7.2.3",
+		"@storybook/react": "^7.2.3",
+		"@storybook/react-vite": "^7.2.3",
+		"@storybook/testing-library": "^0.2.0",
+		"autoprefixer": "^10.4.16",
+		"postcss": "^8.4.31",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"storybook": "^7.2.3",
+		"vite": "^4.4.9"
+	},
+	"peerDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tareqnmd/reacticonlib.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tareqnmd/reacticonlib/issues"
+	},
+	"homepage": "https://github.com/tareqnmd/reacticonlib.git#readme"
+}
