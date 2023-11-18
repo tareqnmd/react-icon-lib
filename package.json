@@ -1,5 +1,5 @@
 {
-	"name": "@tareqnmd/reacticonlib",
+	"name": "@tareqnmd/react-icon-lib",
 	"version": "1.0.1",
 	"description": "React Icon Library",
 	"main": "index.js",
@@ -40,10 +40,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tareqnmd/reacticonlib.git"
+		"url": "https://github.com/tareqnmd/react-icon-lib.git"
 	},
 	"bugs": {
-		"url": "https://github.com/tareqnmd/reacticonlib/issues"
+		"url": "https://github.com/tareqnmd/react-icon-lib/issues"
 	},
-	"homepage": "https://github.com/tareqnmd/reacticonlib.git#readme"
+	"homepage": "https://github.com/tareqnmd/react-icon-lib.git#readme"
 }
