@@ -1,2 +1,2 @@
-export * from './Notepad';
-export * from './NotepadFill';
+export * from './IconNotepad';
+export * from './IconNotepadFill';

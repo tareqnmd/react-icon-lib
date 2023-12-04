@@ -1,2 +1,2 @@
-export * from './Eye';
-export * from './EyeFill';
+export * from './IconEye';
+export * from './IconEyeFill';

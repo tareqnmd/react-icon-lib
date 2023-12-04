@@ -5,13 +5,14 @@ export default defineConfig({
 		jsxInject: `import React from 'react'`,
 	},
 	build: {
+		emptyOutDir: false,
 		outDir: 'dist',
 		lib: {
+			formats: ['es'],
 			name: 'React Icon Library',
 			entry: {
 				index: './icons/index.js',
 			},
-			formats: ['es'],
 		},
 		rollupOptions: {
 			external: ['react'],
