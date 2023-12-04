@@ -2,7 +2,9 @@
 	"name": "@tareqnmd/react-icon-lib",
 	"version": "1.1.16",
 	"description": "React Icon Library",
+	"type": "module",
 	"main": "index.js",
+	"module": "index.js",
 	"files": [
 		"dist",
 		"index.js"
