@@ -1,2 +1,4 @@
-export * from './IconEye';
-export * from './IconEyeFill';
+export * from './dollar';
+export * from './eye';
+export * from './notepad';
+export * from './user';
