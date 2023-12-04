@@ -7,12 +7,15 @@
 	"module": "index.js",
 	"files": [
 		"dist",
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
+	"types": "./index.d.ts",
 	"scripts": {
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
 		"build": "vite build",
+		"dry-run": "npm pack --dry-run",
 		"patch-publish": "vite build && npm version patch && npm publish --access public",
 		"minor-publish": "vite build && npm version minor && npm publish --access public",
 		"major-publish": "vite build && npm version major && npm publish --access public"
