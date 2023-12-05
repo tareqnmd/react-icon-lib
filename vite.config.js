@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
 	esbuild: {
@@ -11,11 +12,12 @@ export default defineConfig({
 			formats: ['es'],
 			name: 'React Icon Library',
 			entry: {
-				index: './icons/index.js',
+				index: './lib/index.js',
 			},
 		},
 		rollupOptions: {
 			external: ['react'],
 		},
 	},
+	plugins: [dts({ include: ['lib'] })],
 });
